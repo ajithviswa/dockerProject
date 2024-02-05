@@ -11,9 +11,10 @@ public class firstTest {
   public void f(String os, String br) {
 //	  ChromeDriver driver = new ChromeDriver();
 	  WebDriver driver = null;
-	  switch(br.toLowerCase()) {
-	  case "chrome": driver=new  ChromeDriver();
-	  }
+//	  switch(br.toLowerCase()) {
+//	  case "chrome": driver=new  ChromeDriver();
+//	  }
+	  driver=new  ChromeDriver();
 	 
 		driver.get("https://google.com");
 		System.out.println("Browser opened the url");
