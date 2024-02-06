@@ -12,6 +12,7 @@ public class firstTest {
 	  ChromeOptions options = new ChromeOptions();
 	  options.addArguments("no-sandbox");
 	  options.addArguments("headless");
+	  options.addArguments("--disable-dev-shm-usage");
 	  driver = new ChromeDriver(options);
 		driver.get("https://google.com/");
 		System.out.println("Browser opened the url");
