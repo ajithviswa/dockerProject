@@ -11,6 +11,7 @@ public class firstTest {
 	 WebDriver driver = new ChromeDriver(); 
 	  ChromeOptions options = new ChromeOptions();
 	  options.addArguments("no-sandbox");
+	  options.addArguments("headless");
 	  driver = new ChromeDriver(options);
 		driver.get("https://google.com/");
 		System.out.println("Browser opened the url");
