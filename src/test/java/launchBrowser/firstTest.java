@@ -10,6 +10,7 @@ public class firstTest {
 	  WebDriver driver = new ChromeDriver(); 
 		driver.get("https://google.com");
 		System.out.println("Browser opened the url");
+	  System.out.println("Page title is : " + driver.getTitle());
 		driver.close();
 		driver.quit();
   }
