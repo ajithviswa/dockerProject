@@ -8,7 +8,7 @@ public class firstTest {
   @Test
   public void f() {
 	  WebDriver driver = new ChromeDriver(); 
-		driver.get("https://google.com");
+		driver.get("https://mvnrepository.com/");
 		System.out.println("Browser opened the url");
 	  System.out.println("Page title is : " + driver.getTitle());
 		driver.close();
