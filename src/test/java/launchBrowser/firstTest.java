@@ -9,8 +9,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class firstTest {
   @Test
   public void f() {
-	WebDriver driver = new FirefoxDriver(); 
-	 // WebDriver driver = new ChromeDriver(); 
+	// WebDriver driver = new FirefoxDriver(); 
+	  WebDriver driver = new ChromeDriver(); 
 	  // ChromeOptions options = new ChromeOptions();
 	  // options.addArguments("no-sandbox");
 	  // options.addArguments("headless");
