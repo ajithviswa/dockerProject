@@ -18,7 +18,7 @@ public class firstTest {
 	  ChromeOptions options = new ChromeOptions();
 	  DesiredCapabilities capabilities = new DesiredCapabilities();
 	  capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-	  URL url= new URL("http://localhost:4444"); 
+	  URL url= new URL("http://localhost:4443/wd/hub"); 
 	  RemoteWebDriver driver = new RemoteWebDriver(url,capabilities) ;
 //	WebDriver driver = new FirefoxDriver(); 
 //	  WebDriver driver = new ChromeDriver(); 
